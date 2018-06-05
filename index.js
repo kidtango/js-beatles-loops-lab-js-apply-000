@@ -30,3 +30,15 @@ const facts = [
   }
 
   console.log(johnLennonFacts(facts));
+  
+  function iLoveTheBeatles(num) {
+    let phrase = [];
+    do {
+        phrase.push("I love the Beattles!");
+        num++;
+
+    } while (num < 15);
+    return phrase;
+}
+
+console.log(iLoveTheBeatles(14));
